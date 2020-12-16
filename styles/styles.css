@@ -1,0 +1,151 @@
+
+@media(max-width:768px){
+    
+    #header{
+        flex-direction: column;
+    }
+
+}
+
+/* ELEMENTS */
+body{
+    background-color: #393e46;
+    font-family: "Roboto Mono",monospace;
+}
+
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+a:visited { 
+    text-decoration: none; color:white;
+}
+
+hr{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
+/* CLASSES */
+
+/* Setting up the navbar for all of the html files */
+#header{
+    display: flex;
+    background-color: #000000;
+    color: aliceblue;
+    justify-content: space-between;
+    font-family: "Roboto Mono",monospace;
+    width: auto;
+}
+.logo{
+    height: 10em;
+    width: 15em;
+}
+
+.box1{
+    flex: 2;
+}
+
+.box2{
+    flex: 1;
+    padding-top: 4.5em;
+}
+.box3{
+    flex: 1;
+    padding-top: 4.5em;
+}
+.box4{
+    flex: 1;
+    padding-top: 4.5em;
+}
+.box5{
+    flex: 1;
+    color: red;
+    padding-top: 4.5em;
+}
+
+.home:hover {
+    color:red;
+}
+
+.about:hover {
+    color:red;
+}
+
+.contact:hover {
+    color:red;
+}
+
+.join:hover {
+    color:yellow;
+    font-size: 2em;
+}
+
+/* End of setting navbar */
+
+
+/* Styling Text between navbar and movies */
+
+.middle-text{
+    font-family: "Roboto Mono",monospace;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 1em 1em 1em;
+    color:#d8d3cd;
+}
+
+.getflix{
+    color:red;
+}
+
+/* End of styling text between navbar and movies */
+
+/* Part with movies, pictures,titles... */
+#filmovi{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pic{
+    height: 250px;
+    width: 250px;
+}
+
+#filmovi h3{
+    color:black;
+}
+
+#filmovi h3:hover{
+    color:white;
+}
+/* end of part with movies */
+
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: black;
+    font-family: "Roboto Mono",monospace;
+}
+#footer .footer-p{
+    padding: 1em 1em;
+    color: #d8d3cd;
+}
+#footer a{
+    padding: 1em 1em;
+    color: cadetblue;
+}
+
+/* end of footer */
+

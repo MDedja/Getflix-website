@@ -1,0 +1,50 @@
+
+@media(max-width:768px){
+    
+    .icons-part{
+        flex-direction: column;
+    }
+
+}
+
+body{
+    font-family: "Roboto Mono",monospace;
+}
+
+.aboutus-text{
+    padding: 1em;
+}
+
+.aboutus-text h2{
+    font-weight: 800;
+    font-size: 2em;
+    padding-bottom: 1em;
+    color:#f7f2e7;
+}
+
+.aboutus-text p{
+    color: #0d7377;
+}
+
+
+
+.icons-part{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7em;
+}
+
+.gold{
+    color:gold;
+}
+
+.silver{
+    color:silver;
+}
+
+.everyone{
+    color: red;
+}

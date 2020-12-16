@@ -1,0 +1,28 @@
+
+
+#signupForm{
+    width: 30em;
+    background-color: black;
+    margin-left: 5em;
+    color: gold;
+    margin-bottom: 7em;
+    margin-top: 5%;
+}
+
+.submit-button{
+    background-color: white;
+    border: none;
+    color:black;
+    padding: 1em 3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    transition-duration: 0.4s;
+}
+
+
+.submit-button:hover{
+    background-color: red;
+    color:gold;
+}
